@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Mali:ital,wght@1,300&display=swap');
+
+:root{
+    --cor1: #D97C2B;
+    --cor2: #734848;
+    --cor3: #D9A384;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    background-color: var(--cor3);
+    text-align: center;
+}
+header{
+    display: flex;
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 20px 204px;
+}
+
+img{
+    margin-left: 200px;
+}
+
+
+header > .espacamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    font-family: 'Indie Flower', Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 2rem;
+    color:white;
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    text-decoration: none;
+    font-family: 'Indie Flower', Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 1.3rem;
+    color:white;
+
+}
