@@ -175,7 +175,7 @@ body{
     width: 100vw;  
 }
 .logo{
-    margin-left: 5px;
+    margin: 5px 5px;
     height: 100px;
 }
 
@@ -199,7 +199,8 @@ justify-content: space-around;
 
 .options{
     display: flex;
-    padding: 5px 10px;
+    margin: 0px;
+    padding: 5px 5px;
     font-size: 0.6rem;
     font-family: 'Mali', Arial, sans-serif;
     color: black;
@@ -292,4 +293,137 @@ main h1{
     margin: 20px;
     text-align: center;
 }
+}
+
+/*MEDIA QUERY DE 550PX */
+
+@media (min-width: 550px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;  
+    }
+    .logo{
+        margin: 5px 5px;
+        height: 100px;
+    }
+    
+    header{
+        display: flex;
+        min-width: 100%;
+        font-family: 'Indie Flower', Arial, sans-serif;
+        font-size: 0.8rem;
+    }
+    
+    header h1, header h2{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+    }
+    
+    .column{
+        display: none;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    
+    .options{
+        display: flex;
+        margin: 0px;
+        padding: 10px 10px;
+        font-size: 0.8rem;
+        color: black;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        width: 100vw;
+        margin: auto;
+        min-height: 100vh;
+    }
+    
+    main h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Mali', Arial, sans-serif;
+        padding: 20px;
+        background-color: #734848;
+        border-radius: 20px;
+        font-size: 2rem;
+        margin: 20px 0px;
+        color: white
+    }
+    
+    .exemplos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    
+        .exemplos2{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0px;
+        }
+        
+        .exemplos img{
+            border-radius: 50%;
+            border: 7px double var(--cor3) ;
+            max-height: 170px;
+            max-width: 170px;
+        }
+    
+        .tituloprod{
+
+            font-family: 'Mali', Arial, sans-serif;
+            font-weight: bolder;
+            background-color: rgba(255, 255, 255, 0);
+        text-align: center;
+            color: black;
+        }
+    
+        .linha{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Mali', Arial, sans-serif;
+            margin-left: 0px;
+            text-align: left;
+            font-size: 1rem;
+        }
+    
+        .titulooque{
+            margin: 0px;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            text-align: center;
+            padding: 5px 20px;
+            background-color: #734848;
+        }
+        
+        .estiloimg{
+            border-radius: 100px;
+            width: 250px;
+            height: 200px;
+            margin: auto;
+            margin-top: 30px;
+    }
+    
+    .paragraph{
+        margin: 20px;
+        text-align: center;
+
+    }
+
 }
