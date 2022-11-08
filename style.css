@@ -172,14 +172,13 @@ footer{
 body{
     display: flex;
     flex-direction: column;
-    width: 100vw;
-
-        
+    width: 100vw;  
 }
 .logo{
     margin-left: 5px;
     height: 100px;
 }
+
 header{
     display: flex;
     min-width: 100%;
@@ -216,7 +215,6 @@ main{
     width: 100vw;
     margin: auto;
     min-height: 100vh;
-
 }
 
 main h1{
@@ -264,7 +262,6 @@ main h1{
         color: black;
     }
 
-    
     .linha{
         display: flex;
         flex-direction: column;
